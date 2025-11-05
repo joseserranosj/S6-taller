@@ -29,8 +29,7 @@ int main()
             opc = -1;
             continue;
         }
-        while (getchar() != '\n')
-            ;
+        while (getchar() != '\n');
 
         switch (opc)
         {
